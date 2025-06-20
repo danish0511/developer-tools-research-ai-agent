@@ -1,6 +1,7 @@
 # Developer Tools Research AI Agent 🤖
 
-A modular, research-focused AI agent designed to assist developer tooling exploration—enabling research-driven interaction with developer tools through autonomous agents.
+The Developer Tools Research AI Agent is an innovative project that aims to revolutionize the way developers research and discover new tools, technologies, and solutions.
+The project utilizes artificial intelligence and natural language processing (NLP) to analyze a vast database of developer tools, technologies, and solutions.
 
 ---
 
@@ -29,10 +30,10 @@ Each piece is highly decoupled—swap in a new tool agent or model with minimal 
 
 ### Requirements
 
-- Python 3.10+
-- [OpenAI](https://openai.com) or [Gemini](https://aistudio.google.com/app/apikey) or any other compatible LLM API key
-- [Firecrawl](https://www.firecrawl.dev/) API key
-- Download [uv](https://docs.astral.sh/uv/getting-started/installation/)
+- **Core Framework**: Python 3.10+
+- **Virtual Environment**: `uv` (Blazing-fast Python package installer)
+- **Web Scraping**: `firecrawl` (Next-gen web scraping API)
+- **AI Models**: `OpenAI` or `Gemini` APIs for LLM processing
 
 ### Installation
 
